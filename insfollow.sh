@@ -1,7 +1,7 @@
 #!/bin/bash
-# insfollow v2.0
-# recoded by: Termux Professor
-# github.com/termuxprofessor/insfollow
+# insfollow-Das v2.0
+# recoded by: DAS
+# github.com/c-handu/insfollow-Das
 # If you use any part from this code, give me the credits, please, read the License
 
 clear
@@ -31,7 +31,7 @@ echo -e "\e[1;91m  ║ \e[1;92m│ │ │└──┐\e[1;91m╠═╣ \e[1;92m
 
 echo -e "\e[1;91m  ║ \e[1;92m┘ └─┘└──┘\e[1;91m║   \e[1;92m└──┘┴──┘┴──┘└──┘└─┴─┘"
 
-echo -e "\e[1;91m ═╩═\e[1;92m         \e[1;91m╩   by - \e[1;92mTermux Professor"
+echo -e "\e[1;91m ═╩═\e[1;92m         \e[1;91m╩   by - \e[1;92m DAS"
 
 }
 
@@ -247,7 +247,7 @@ fi
 sleep 5
 done
 printf " \e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;77m Sleeping 60 secs for block prevention...\e[0m\n"
-sleep 240
+sleep 180
 
 
 done
