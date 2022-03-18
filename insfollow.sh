@@ -223,11 +223,11 @@ exit 1
 else
 printf " \e[1;92mSuccess\e[0m\n"
 fi
-sleep 3
+sleep 5
 
 done
 printf " \e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;77m Sleeping 60 secs...\e[0m\n"
-sleep 60
+sleep 240
 #unfollow
 for celeb in $(cat celeb_id); do
 data='{"_uuid":"'$guid'", "_uid":"'$username_id'", "user_id":"'$celeb'", "_csrftoken":"'$var2'"}'
@@ -244,10 +244,10 @@ else
 printf " \e[1;92mSuccess\e[0m\n"
 fi
 
-sleep 3
+sleep 5
 done
 printf " \e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;77m Sleeping 60 secs for block prevention...\e[0m\n"
-sleep 60
+sleep 240
 
 
 done
